@@ -58,12 +58,12 @@ try
 	);			
 	$mail->Host = 'smtp.gmail.com';             // Specify SMTP server
     $mail->SMTPAuth = true;                     // Enable SMTP authentication
-	$mail->Username = 'dfhellerjr@gmail.com';	// SMTP username 
-    $mail->Password = 'christian87';            // SMTP password
+	$mail->Username = 'youremailaddress';	    // SMTP username 
+    $mail->Password = 'yourpassword';           // SMTP password
     $mail->Port = 587;                          // TCP port to connect to
     
 	// Sent from:
-    $mail->setFrom('administrator@technobytes.com', 'administrator');
+    $mail->setFrom('administrator@terabytes.com', 'administrator');
 	
 	// Sent to: using my own email address; normal usage: $email
     $mail->addAddress($email);              
@@ -82,7 +82,7 @@ try
      </p>		
 	 <table width='600' align='center' bgcolor='#FFCC99' border='2'>		
         <tr align='center'>
-            <td colspan='6'><h2>TechnoBytes Warehouse</h2></td>
+            <td colspan='6'><h2>TeraBytes Warehouse</h2></td>
         </tr>				
 		<tr align='center'>
             <td><h3><b>Your Temporary Password is:</b>&nbsp;&nbsp;<b>$tempPassword</b></h3></td>	
@@ -91,7 +91,7 @@ try
      <h3>
         For security purposes it's important that you change this password at your earliest convenience.
      </h3>			
-	 <h2><a href='http://localhost/TeraBytes2/index.php?menukey=5'>Click here</a> to login!</h2>		
+	 <h2><a href='http://localhost/TeraBytes/index.php?menukey=5'>Click here</a> to login!</h2>		
      <h3>
         Thank you for shopping with us and please let us know if you are in need of any additional assistance.
      </h3>";
