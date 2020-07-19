@@ -101,7 +101,7 @@
     </h3>
     <br>
     <p>A confirmation message has been sent to your email address.</p>	   					
-    <h3><a href="http://localhost/TeraBytes4/index.php">Return to Home Page</a></h3>
+    <h3><a href="http://localhost/TeraBytes/index.php">Return to Home Page</a></h3>
 </div>
 
 <!-- ----------------------------------------------------------------------------
