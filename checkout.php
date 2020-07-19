@@ -273,7 +273,7 @@
                         <input type='text' id='altstate' name='altstate' placeholder="State" required >
                     </td>
                 </tr>
-                <tr>																	                
+                <tr>																                
                     <td>           
                         <select name="altcountry" id="altcountry">
                             <option value="32" selected>United States</option>			
