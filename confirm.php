@@ -128,8 +128,8 @@
         $mail->Host       = 'smtp.gmail.com';        // Specify SMTP server
         $mail->SMTPAuth   = true;                    // Enable SMTP authentication
         $mail->SMTPSecure = 'tls';					 // Encryption (for gmail)
-        $mail->Username   = 'dfhellerjr@gmail.com';	 // SMTP username 
-        $mail->Password   = 'christian87';           // SMTP password
+        $mail->Username   = 'youremailaddress';	     // SMTP username 
+        $mail->Password   = 'yourpassword';          // SMTP password
         $mail->Port       = 587;                     // TCP port to connect to
         
         // Sender
@@ -143,10 +143,8 @@
         // Content (body)
         $mail->Body =
         "<p>Hello <b style='color:blue;'>$customerfirstname</b>. 
-            Thank you for ordering from TeraBytes Warehouse. Please find your order details listed below. 
-            Your order will be delivered shortly.<br>
-            We appreciate your business and hope that you will shop with us again soon! Please contact us 
-            if you encounter any problems with your order.
+            Thank you for ordering from TeraBytes Warehouse. Please find your order details listed below. Your order will be delivered shortly.<br>
+            We appreciate your business and hope that you will shop with us again soon! Please contact us if you encounter any problems with your order.
         </p>		
         <table width='500' align='center' bgcolor='#FFCC99' border='2'>		
             <tr align='center'>
@@ -189,7 +187,7 @@
         $mail->Body .=    
             "</table>					
             <h2 style='text-align:center'> 
-                <a href='http://localhost/TeraBytes4/index.php'>Click here</a> to continue shopping.
+                <a href='http://localhost/TeraBytes/index.php'>Click here</a> to continue shopping.
             </h2>		
             <h3 style='text-align:center'> 
                 Thank you for purchasing from <b>TeraBytes Warehouse</b>
