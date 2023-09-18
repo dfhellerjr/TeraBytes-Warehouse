@@ -28,7 +28,7 @@ This repo contains my most recent version of this website.
 - Expedited shipping charges & alternative shipping names/addresses are permitted & preserved
 - phpmailer can be installed using several different methods; in my case I added it using
   Composer which was included in my root folder for Apache server. If you are using gmail
-  for your account you many need to enable "less secure apps" access
+  for your account you may need to enable "less secure apps" access
 
 In addition I used the following resources in my development process:
 
